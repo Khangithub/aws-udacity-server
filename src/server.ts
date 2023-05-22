@@ -13,7 +13,7 @@ app.use(cors());
 app.use('/user', userRouter)
 
 app.listen(port, function () {
-    console.log(`starting app on --> http://localhost:${port}`)
+    console.log(`starting app on ------> http://localhost:${port}`)
 })
 
 export default app;
